@@ -9,7 +9,9 @@ Questions Covered
 Endpoints
 | URL | Description |
 
-| /create_demo/ | Tests synchronous execution | | /thread_demo/ | Tests if signals run in the same thread | | /transaction_demo/ | Tests database transaction behavior |
+/create_demo/ -> Tests synchronous execution 
+/thread_demo/ -> Tests if signals run in the same thread 
+/transaction_demo/ -> Tests database transaction behavior 
 
 2️. Custom Python Class
 File: rectangle_class.py
