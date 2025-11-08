@@ -33,3 +33,19 @@ Implements a `Rectangle` class that:
   ```python
   {'length': value}
   {'width': value}
+
+# 1. Create and activate virtual environment
+python -m venv myenv
+myenv\Scripts\activate   # On Windows
+source myenv/bin/activate # On Mac/Linux
+
+# 2. Install dependencies
+pip install django
+
+# 3. Run migrations
+python manage.py makemigrations
+python manage.py migrate
+
+# 4. Start the server
+python manage.py runserver
+
