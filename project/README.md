@@ -49,3 +49,8 @@ python manage.py migrate
 # 4. Start the server
 python manage.py runserver
 
+Then visit:
+
+http://127.0.0.1:8000/create_demo/
+http://127.0.0.1:8000/thread_demo/
+http://127.0.0.1:8000/transaction_demo/
